@@ -1,0 +1,10 @@
+// Define a module called ReverseModule
+module ReverseModule
+{
+    // Define an interface called Reverse
+    interface Reverse
+    {
+        // Define a method called reverse_string that takes a string as input and returns a string
+        string reverse_string(in string str);
+    };
+};
