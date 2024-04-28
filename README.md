@@ -8,8 +8,8 @@ This repository contains lab practice assignments for the Distributed Systems co
 
 ## Running the Code
 
-* **JDK Compatibility**: All Java code in this repository is compatible with JDK 8.
-* **Lab 7 Requirement**: Lab 7 may require the default JDK for execution.
+* **JDK 8 Compatibility**: All Java code in this repository is compatible with JDK 8.
+* **Lab 7 Requirement**: Lab 7 may require the default-jdk which is JDK-17 for execution.
 * **Operating System**: It is recommended to use an Ubuntu machine for running these exercises.
 
 ## Instructions
