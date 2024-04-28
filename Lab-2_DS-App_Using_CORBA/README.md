@@ -1,8 +1,6 @@
-Below is the revised version of your instructions for Assignment 3 in a README.md file:
 
----
 
-## Assignment 3: Running Java Application with CORBA (Common Object Request Broker Architecture)
+## Assignment 2: Develop any distributed application using CORBA to demonstrate object brokering.
 
 ### Installation - Only Open JDK-8
 
