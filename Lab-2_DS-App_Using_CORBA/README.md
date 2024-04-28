@@ -22,24 +22,9 @@ sudo apt install openjdk-8-jre   # Install OpenJDK 8 runtime environment
 
     ```bash
     idlj -fall ReverseModule.idl
-    ```
-
-2. Compile all Java files:
-
-    ```bash
     javac *.java ReverseModule/*.java
-    ```
-
-3. Start the Object Request Broker Daemon (ORBD):
-
-    ```bash
     orbd -ORBInitialPort 1056&
-    ```
-
-4. Start the CORBA server:
-
-    ```bash
-    java ReverseServer -ORBInitialPort 1056&
+    java ReverseServer -ORBInitialPort 1056& 
     ```
 ---
 #### Terminal 2: Running the CORBA Client
