@@ -30,7 +30,7 @@ javac *.java
 2. Compile the server implementation file:
 
 ``` bash
-rmic ServerImplementation
+rmic ServerImplementation #Ignore Output
 ```
 
 3. Start the RMI registry:
@@ -38,12 +38,16 @@ rmic ServerImplementation
 ``` bash
 rmiregistry
 ```
+<br>
+- - -
 
 #### Terminal 2: Starting the Server
 
 ``` bash
 java Server
 ```
+
+- - -
 
 #### Terminal 3: Connecting the Client
 
