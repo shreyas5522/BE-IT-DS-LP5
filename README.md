@@ -24,34 +24,14 @@ git clone https://github.com/shreyas5522/BE-IT-DS-LP5/tree/main
 
 ## Lab Assignments
 
-### Lab-1\_Client\_Server\_RMI
+| Lab Exercise                 | Description                                                                       | Directory                           |
+|------------------------------|-----------------------------------------------------------------------------------|-------------------------------------|
+| Lab-1_Client_Server_RMI      | Implementation of a Client-Server application using Remote Method Invocation (RMI) | [Lab-1_Client_Server_RMI](Lab-1_Client_Server_RMI)       |
+| Lab-2_DS-App_Using_CORBA     | Development of a distributed application using Common Object Request Broker Architecture (CORBA) | [Lab-2_DS-App_Using_CORBA](Lab-2_DS-App_Using_CORBA)     |
+| Lab-3_OpenMP_Array_Sum       | Parallelization of array summation using OpenMP directives                        | [Lab-3_OpenMP_Array_Sum](Lab-3_OpenMP_Array_Sum)         |
+| Lab-4_Berkeley_algorithm     | Implementation of the Berkeley algorithm for clock synchronization               | [Lab-4_Berkeley_algorithm](Lab-4_Berkeley_algorithm)     |
+| Lab-5_TokenRing              | Implementation of the Token Ring protocol for message passing in a distributed system | [Lab-5_TokenRing](Lab-5_TokenRing)                      |
+| Lab-6_Bully_and_Ring         | Implementation of the Bully and Ring algorithms for leader election in distributed systems | [Lab-6_Bully_and_Ring](Lab-6_Bully_and_Ring)             |
 
-* Description: Implementation of a Client-Server application using Remote Method Invocation (RMI).
-* Directory: [Lab-1\_Client\_Server\_RMI](Lab-1_Client_Server_RMI)
-
-### Lab-2\_DS-App\_Using\_CORBA
-
-* Description: Development of a distributed application using Common Object Request Broker Architecture (CORBA).
-* Directory: [Lab-2\_DS-App\_Using\_CORBA](Lab-2_DS-App_Using_CORBA)
-
-### Lab-3\_OpenMP\_Array\_Sum
-
-* Description: Parallelization of array summation using OpenMP directives.
-* Directory: [Lab-3\_OpenMP\_Array\_Sum](Lab-3_OpenMP_Array_Sum)
-
-### Lab-4\_Berkeley\_algorithm
-
-* Description: Implementation of the Berkeley algorithm for clock synchronization.
-* Directory: [Lab-4\_Berkeley\_algorithm](Lab-4_Berkeley_algorithm)
-
-### Lab-5\_TokenRing
-
-* Description: Implementation of the Token Ring protocol for message passing in a distributed system.
-* Directory: [Lab-5\_TokenRing](Lab-5_TokenRing)
-
-### Lab-6\_Bully\_and\_Ring
-
-* Description: Implementation of the Bully and Ring algorithms for leader election in distributed systems.
-* Directory: [Lab-6\_Bully\_and\_Ring](Lab-6_Bully_and_Ring)
 
 Feel free to explore each lab directory for detailed instructions and code implementations.
