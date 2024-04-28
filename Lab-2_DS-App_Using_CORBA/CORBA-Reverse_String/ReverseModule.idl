@@ -1,10 +1,10 @@
-// Define a module named ReverseModule
+// Define the module name
 module ReverseModule
 {
-	// Define an interface named Reverse
+	// Define the interface within the module
 	interface Reverse
 	{
-		// Declare a method named reverse_string that takes a string as input and returns a string
+		// Define the method that takes a string as input and returns a reversed string
 		string reverse_string(in string str);
 	};
 };

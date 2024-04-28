@@ -1,16 +1,24 @@
-import ReverseModule.ReversePOA; // Importing the ReversePOA class from the ReverseModule package
-import java.lang.String; // Importing the String class from the java.lang package
+import ReverseModule.ReversePOA;
+import java.lang.String;
 
-class ReverseImpl extends ReversePOA { // Defining a class named ReverseImpl that extends ReversePOA
+// ReverseImpl class that extends ReversePOA
+class ReverseImpl extends ReversePOA {
 
-	ReverseImpl() { // Constructor for the ReverseImpl class
-		super(); // Calling the constructor of the parent class
-		System.out.println("Reverse Object Created"); // Printing a message to indicate that a Reverse object has been created
+	// Constructor for ReverseImpl class
+	ReverseImpl() {
+		super();
+		System.out.println("Reverse Object Created");
 	}
 
-	public String reverse_string(String name) { // Method to reverse a string
-		StringBuffer str = new StringBuffer(name); // Creating a StringBuffer object with the given string
-		str.reverse(); // Reversing the contents of the StringBuffer object
-		return (("Server Send " + str)); // Returning the reversed string with a prefix
+	// Method to reverse a string
+	public String reverse_string(String name) {
+		// Create a StringBuffer object with the given string
+		StringBuffer str = new StringBuffer(name);
+
+		// Reverse the string using the reverse() method of StringBuffer
+		str.reverse();
+
+		// Return the reversed string with a prefix
+		return (("Server Send " + str));
 	}
 }
