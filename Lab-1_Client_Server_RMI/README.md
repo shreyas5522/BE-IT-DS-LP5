@@ -38,7 +38,7 @@ rmic ServerImplementation #Ignore Output
 ``` bash
 rmiregistry
 ```
-<br>
+
 - - -
 
 #### Terminal 2: Starting the Server
